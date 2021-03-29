@@ -1,14 +1,20 @@
 # just-pepperoni-app-ordering-api
 API Services for Just Pepperoni's ordering system 
 
-## Commands
+Operates on Node v15.12.0
 
-To start the service
+## Setup
+
+Your environment will require node and npm to be installed: https://nodejs.org/en/
+Once your environment is ready to go, open a command line interface (CLI) and run the following commands (assuming you are running Git Bash):
+
 ```
+npm install
 npm start
 ```
+This will get a GraphiQL web app running on http://localhost:4000/graphql
 
-To test the service, make sure that the service is running first before running the tests, then run the following command:
+If you wish to run the tests, run the following commands on your CLI:
 ```
 npm test
 ```
