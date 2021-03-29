@@ -9,6 +9,8 @@ Your environment will require node and npm to be installed: https://nodejs.org/e
 Once your environment is ready to go, open a command line interface (CLI) and run the following commands (assuming you are running Git Bash):
 
 ```
+cd /path/to/just-pepperoni-app-ordering-api
+cp .example.env .env
 npm install
 npm start
 ```
